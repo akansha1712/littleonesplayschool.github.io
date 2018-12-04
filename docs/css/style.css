@@ -223,8 +223,7 @@ input.white[type=submit]:hover{
     font-size: 20px;
     margin-left: 20px;
     list-style-type: circle;
-/*        list-style-type: upper-roman;*/
-
+	
  
 }
 /* Wrapper
@@ -488,7 +487,8 @@ max-width: 1200px;
 	color: #bfd04e;
 }
 .widget-boxes .experience h2{
-	color: #f09496;
+	color: #ffff00;
+	
 }
 .widget-boxes .fun h2{
 	color: #a1d7e4;
@@ -839,7 +839,7 @@ max-width: 1200px;
 ------------------------------------------------------------------------------*/
 .about h1,
 .gallery h1 {
-	padding: 45px 0 57px;
+	padding: 25px 0 30px;
 	font-family: 'Gochi Hand', cursive;
 	font-size: 36px;
 }
