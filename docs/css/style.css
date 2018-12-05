@@ -692,7 +692,7 @@ margin-right: auto;
 	line-height: 24px;
 }
 .event-calendar .event-tooltip .metadata {
-/	color: #4e87a0;
+	color: #4e87a0;
 }
 .event-calendar .event-tooltip .metadata time {
 	display: inline-block;
