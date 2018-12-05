@@ -99,8 +99,10 @@ em {
 }
 #index_para{
 /*    font-weight: bold;*/
-    font-style: italic;
-    font-size: 20px;
+	font-style: italic;
+	font-family: Georgia, serif;
+
+    font-size: 19px;
     color:black;
 
     
@@ -219,11 +221,12 @@ input.white[type=submit]:hover{
 }
 .placeholder { color: #4e87a0; }
 #li{
-
-    font-size: 20px;
+     /* color:#ea6b6e; */
+    font-size: 19px;
     margin-left: 20px;
-    list-style-type: circle;
-	
+	list-style-type:lower-latin;
+    /* font-family: Arial, Helvetica, sans-serif; */
+	font-family: Georgia, serif;
  
 }
 /* Wrapper
@@ -413,23 +416,35 @@ input.white[type=submit]:hover{
 
 max-height: 500px;
 max-width: 1200px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
 }
 .w3-content,.w3-auto
 {
 /*    margin:5%;*/
 }
 .w3-content{
-    max-width:980px
+	max-width:980px;
+	text-align: center;
 }
 .w3-auto{
     max-width:1140px
 }
 .w3-section,.w3-code{
     margin-top:16px!important;
-    margin-bottom:16px!important
+	margin-bottom:16px!important;
+	text-align: center;
+}
+.w3-section{
+	
+	/* display: block; */
+	margin-left: auto;
+	margin-right: auto;
 }
 .w3-animate-fading{
-    animation:fading 10s infinite
+    animation:fading 5s infinite
 }
 
 @keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
@@ -458,6 +473,7 @@ max-width: 1200px;
 /*	overflow: hidden;*/
 }
 .widget-boxes .box {
+
 	display: inline-block;
 	width: 370px;
 /*	overflow: hidden;*/
@@ -867,6 +883,7 @@ max-width: 1200px;
 .person .person-description {
 	display: table-cell;
 	position:relative;
+	font-family: Georgia, serif;
 }
 .person .person-img,
 .person .person-description {
